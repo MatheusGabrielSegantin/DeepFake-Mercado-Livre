@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mercado Livre Brasil - Frete Grátis no mesmo dia</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <header>
+
+        <div class="topo">
+
+            <div class="logo-localizacao">
+
+                <img src="{{ url_for('static', filename='logo.png') }}" class="logo">
+
+                <div class="localizacao">
+                    <img src="{{ url_for('static', filename='pin.png') }}">
+                    <div>
+                        <p class="enviar">Enviar para</p>
+                        <p>Birigui 139223320</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <input type="text" placeholder="Buscar produtos, marcas e muito mais...">
+
+            <div class="conta">
+                <a href="">Crie a sua conta</a>
+                <a href="">Entre</a>
+                <a href="">Compras</a>
+
+                <img src="{{ url_for('static', filename='carrinho.png') }}">
+            </div>
+
+        </div>
+
+        <div class="categorias">
+
+            <a href="">Categorias</a>
+            <a href="">Oferta</a>
+            <a href="">Cupons</a>
+            <a href="">Supermercado</a>
+            <a href="">Moda</a>
+            <a href="">Mercado Play</a>
+            <a href="">Vender</a>
+            <a href="">Contato</a>
+
+        </div>
+    </header>
+
+
+    <main>
+         <img src="{{ url_for('static', filename='capasite.png') }}" class="capa">
+
+
+        <div class="especifica">
+            <div class="frete">
+                <h5>Frete Grátis</h5>
+                <img src="{{ url_for('static', filename='freteGratis.png') }}">
+                <p>Benefícios por ser sua primeira compra</p>
+                <button>Mostrar produtos</button>
+            </div>
+
+            <div class="mais">
+                <h5>Mais vendidos</h5>
+                <img src="{{ url_for('static', filename='maisvendidos.png') }}">
+                <p>Explore os produtos que são tendência.</p>
+                <button>Mostrar produtos</button>
+            </div>
+
+            <div class="entre">
+                <h5>Entre na sua conta</h5>
+                <img src="{{ url_for('static', filename='entrenaConta.png') }}">
+                <p>Aproveite oferta para comprar tudo que quiser.</p>
+                <button>Entrar na sua conta</button>
+            </div>
+
+            <div class="filme">
+                <h5>Filme</h5>
+
+                <button>Assistir grátis</button>
+            </div>
+
+            <div class="meios">
+                <h5>Meios de pagamento</h5>
+                <img src="{{ url_for('static', filename='meiosdePagamento.png') }}">
+                <p>Pague suas compras com rapidez e segurança.</p>
+                <button>Mostrar meios</button>
+            </div>
+        </div>
+
+        <div class="ofertadia">
+            <h5>Ofertas do dia</h5>
+
+            <img src="{{ url_for('static', filename='pc.png') }}" class="pc">
+
+            <p class="notebook">
+                Notebook Acer Aspire 5 A515-45-R5AT <br>
+                AMD Ryzen 5 5500U 15.6"AMD Radeon...
+            </p>
+
+            <div class="off">
+                <p>50% OFF</p>
+            </div>
+
+            <div class="umantes">
+                <p>R$6.699</p>
+            </div>
+
+            <div>
+                <h4 class="precoum">R$ 3.288</h4>
+                <p class="umvendido">+1000 vendidos</p>
+                <p class="umpix">no Pix</p>
+                <p class="umfinal">ou R$ 3.654 em 10x R$ 365,40 sem juros</p>
+            </div>
+
+            <div class="umgratis">
+                <p>Chegará grátis amanhã</p>
+            </div>
+
+
+        <div class="oferta">
+            <h5>Ofertas</h5>
+            <p class="todasofertas">Mostrar todas as ofertas</p>
+
+            <div class="camera">
+                <div>
+                    <img src="{{ url_for('static', filename='camera.png') }}">
+
+                    <p class="umcamera">
+                        Câmera Segurança Ip <br>
+                        externa Wifi A28 App Icsee ...
+                    </p>
+                </div>
+
+                <div>
+                    <p class="off">70% OFF</p>
+                </div>
+
+                <p class="umantes">R$350</p>
+
+                <div>
+                    <h4 class="precoum">R$ 104</h4>
+                    <p class="doisvendido">+100mil vendidos</p>
+                    <p>no pix</p>
+                    <p>ou R$ 127,99 em outros<br> meios</p>
+                    <p>Frete Grátis</p>
+                </div>
+            </div>
+
+            <div class="top">
+                <div>
+                    <img src="{{ url_for('static', filename='imgdotop.png') }}">
+
+                    <p>
+                        Top Lupo Loba Fitness <br>
+                        Confortável Ótima...
+                    </p>
+                </div>
+
+                <div>
+                    <p>74% OFF</p>
+                </div>
+
+                <p>R$149,98</p>
+
+                <div>
+                    <h4>R$ 38 <span>99</span></h4>
+                    <p>+50mil vendidos</p>
+                    <p>Frete Grátis</p>
+                </div>
+
+                <div>
+                    <p>Chegará grátis hoje</p>
+                </div>
+
+                <p>
+                    <img src="{{ url_for('static', filename='full.png') }}">
+                    por ser sua <br>
+                    primeira compra
+                </p>
+
+            </div>
+
+            <div class="cortina">
+                <div>
+                    <img src="{{ url_for('static', filename='cortina.png') }}">
+
+                    <p>
+                        Cortina Blackout Tecido<br>
+                        grosso 2,80x2,30 Porta Sal...
+                    </p>
+                </div>
+
+                <div>
+                    <p>38% OFF</p>
+                </div>
+
+                <p>R$129,28</p>
+
+                <div>
+                    <h4>R$ 78 <span>90</span></h4>
+                    <p>+100mil vendidos</p>
+                </div>
+                <div>
+                    <p>Chegará grátis hoje</p>
+                </div>
+
+                <p>
+                    <img src="{{ url_for('static', filename='full.png') }}">
+                    por ser sua <br>
+                    primeira compra
+                </p>
+            </div>
+
+            <div class="lampada">
+
+                <img src="{{ url_for('static', filename='lampada.png') }}">
+
+                <p>
+                    Kit 10 Lâmpadas LED<br>
+                    Bulbo 50W alta Potência...
+                </p>
+
+                <div>
+                    <p>26% OFF</p>
+                </div>
+
+                <div>
+                    <p>R$ 189,90</p>
+                </div>
+
+                <div>
+                    <h4>R$ 139 <span>41</span></h4>
+                    <p>+10000 vendidos</p>
+                    <p>no Pix</p>
+                    <p>ou R$ 154,90 em outros meios</p>
+                </div>
+
+                <div>
+                    <p>Chegará grátis amanhã</p>
+                </div>
+                <p>
+                    <img src="{{ url_for('static', filename='full.png') }}">
+                    por ser sua <br>
+                    primeira compra
+                </p>
+
+            </div>
+
+        </div>
+        <div><
+        <div>
+            <h5>LIQUIDA FULL</h5>
+            <h5>OS MELHORES ITENS DO OUTLET</h5>
+            <p>Veja ofertas</p>
+            <img src="{{ url_for('static', filename='produtos1.png') }}" alt="">
+        </div>
+
+        <div>
+            <h5>VEM FAZER</h5>
+            <h5>COMPRITTA COM ATÉ 70% OFF</h5>
+            <p>Aproveite</p>
+            <img src="{{ url_for('static', filename='compritta.png') }}" alt="">
+        </div>
+
+        <div class="">
+            <div class="rosa">
+                <h5>
+                    <span>meli+</span>
+                    Benefícios que se pagam sozinhos
+                </h5>
+
+                <p>Assinar a partir de R$ 9,90</p>
+            </div>
+
+            <div class="controle">
+                <img src="{{ url_for('static', filename='controle.png') }}" alt="">
+                <p>Frete grátis rápido em produtos a parir de R$ 19</p>
+            </div>
+
+            <div class="plataformas">
+                <img src="{{ url_for('static', filename='plataformas.png') }}" alt="">
+                <p>As melhores plataformas de entreterimento</p>
+            </div>
+
+            <div class="cartao">
+                <img src="{{ url_for('static', filename='cartao.png') }}" alt="">
+                <p>Até 15% de cashback nas suas compras e pagamentos</p>
+            </div>
+
+            <div class="porquinho">
+                <img src="{{ url_for('static', filename='porquinho.png') }}" alt="">
+                <p>Rendimento até 120% do CDI em Cofrinhos</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
